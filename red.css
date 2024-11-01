@@ -1,9 +1,10 @@
-.div{
-background-image: url(./switzerland-862870_1920.jpg);
-}
+/* .{ */
+/* background-image: url(./switzerland-862870_1920.jpg); */
+/* } */
 
-.py-5{
-    margin-top: 50%;
-    font-family: Nova Square, Rajdhani;
-    height: 50%;
-}
+
+.header{
+    background-image: url(/switzerland-862870_1920.jpg);
+    
+
+}    

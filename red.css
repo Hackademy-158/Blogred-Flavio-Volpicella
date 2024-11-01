@@ -1,10 +1,39 @@
-/* .{ */
-/* background-image: url(./switzerland-862870_1920.jpg); */
-/* } */
+:root{
+--titoli: font-family: "Rajdhani", sans-serif;
+--testi: font-family: "Nova Square", sans-serif;
+--rosa: colore: #C67F7F;
+--rosso: darkred;
+--bianco: #ececec;
+
+}
 
 
-.header{
-    background-image: url(/switzerland-862870_1920.jpg);
+
+.header{ 
+    background: url(/switzerland-862870_1920.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+
+
+
+} 
+
+
+.h1{
+    margin-top: 19%;
+    font-size: 200px;
+    color:darkred ;
+    font-family: "Rajdhani", sans-serif;
+    font-weight: 700;
+    font-style: normal;
     
+    
+}
+.paragraph{
+    margin-top: 20%;
+}
 
-}    
+.section{
+    background-image: url(/mountains.png);
+}
+

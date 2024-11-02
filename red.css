@@ -13,9 +13,6 @@
     background: url(/switzerland-862870_1920.jpg);
     background-size: cover;
     background-attachment: fixed;
-
-
-
 } 
 
 
@@ -26,14 +23,62 @@
     font-family: "Rajdhani", sans-serif;
     font-weight: 700;
     font-style: normal;
-    
-    
 }
 .paragraph{
     margin-top: 20%;
+    font-family: var(--titoli);
+    position: relative;
 }
+
+.paragraph::after{
+content: close-quote;
+color: darkred;
+font-size: 60px;
+bottom: -55px;
+position: absolute;
+}
+
+.paragraph::before{
+content: open-quote;
+color: darkred;
+font-size: 60px;
+position: absolute;
+top: -40px;
+
+}
+
 
 .section{
     background-image: url(/mountains.png);
 }
+
+.lista{
+    padding-top: 200px;
+    border-bottom: 3px solid darkred;
+    position: relative;
+}
+
+.lorem{
+position: relative;
+}
+
+.lista:before{
+    border-radius: 50%;
+    border: 2px solid darkred;
+    background-color: white;
+    height: 10px;
+    width: 10px;
+    position: absolute;
+
+
+}
+
+/* .lorem1{
+    bottom: 10px;
+    border-bottom: 3px solid darkred;
+
+} */
+
+
+    
 

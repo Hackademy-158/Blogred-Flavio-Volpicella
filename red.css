@@ -1,16 +1,16 @@
 :root{
---titoli: font-family: "Rajdhani", sans-serif;
---testi: font-family: "Nova Square", sans-serif;
---rosa: colore: #C67F7F;
---rosso: darkred;
---bianco: #ececec;
-
+    --titoli: font-family: "Rajdhani", sans-serif;
+    --testi: font-family: "Nova Square", sans-serif;
+    --rosa: colore: #C67F7F;
+    --rosso: darkred;
+    --bianco: #ececec;
+    
 }
 
 
 
 .header{ 
-    background: url(/switzerland-862870_1920.jpg);
+    background: url(./Red/media/switzerland-862870_1920.jpg);
     background-size: cover;
     background-attachment: fixed;
 } 
@@ -31,25 +31,29 @@
 }
 
 .paragraph::after{
-content: close-quote;
-color: darkred;
-font-size: 60px;
-bottom: -55px;
-position: absolute;
+    content: close-quote;
+    color: darkred;
+    font-size: 60px;
+    bottom: -55px;
+    position: absolute;
 }
 
 .paragraph::before{
-content: open-quote;
-color: darkred;
-font-size: 60px;
-position: absolute;
-top: -40px;
-
+    content: open-quote;
+    color: darkred;
+    font-size: 60px;
+    position: absolute;
+    top: -40px;
+    
 }
 
 
 .section{
-    background-image: url(/mountains.png);
+    background-image: url(./Red/media/mountains.png); 
+    background-color: lightgray;
+    background-position: center;
+    background-size: cover;
+    
 }
 
 .lista{
@@ -58,27 +62,61 @@ top: -40px;
     position: relative;
 }
 
-.lorem{
-position: relative;
-}
+
 
 .lista:before{
     border-radius: 50%;
     border: 2px solid darkred;
-    background-color: white;
+    background-color: #ececec;
     height: 10px;
     width: 10px;
     position: absolute;
-
-
+    
+    
 }
 
-/* .lorem1{
-    bottom: 10px;
-    border-bottom: 3px solid darkred;
+.container-fluid {
+    --bs-gutter-x: 0;
+    --bs-gutter-y: 0;
+    width: 100%;
+    padding-right: 0%;
+    padding-left: 0%;
+    margin-right: auto;
+    margin-left: auto;
+}
 
-} */
+.row {
+    
+    
+    --bs-gutter-x: none; 
+    --bs-gutter-y: none;
+}
 
+
+.button{
+    background-color: darkred;
+
+}
+.btn-primary {
+
+    --bs-btn-border-color: #ececec;
+    --bs-btn-hover-color: #ececec;
+    --bs-btn-hover-bg: darkred;
+    --bs-btn-hover-border-color: ##ececec;
+    --bs-btn-active-color: #ececec;
+    --bs-btn-active-bg: darkred;
+    --bs-btn-active-border-color: darkred;
 
     
+}
+.btn-group-lg>.btn, .btn-lg {
+    --bs-btn-border-radius: none
+}
+
+.btn-lg {
+    
+    --bs-btn-padding-x: 3rem;
+    
+}
+
 
